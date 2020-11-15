@@ -1,23 +1,31 @@
-# Example app with [chakra-ui](https://github.com/chakra-ui/chakra-ui)
 
-This example features how to use [chakra-ui](https://github.com/chakra-ui/chakra-ui) as the component library within a Next.js app.
+# Reddit client app
 
-We are connecting the Next.js `_app.js` with `chakra-ui`'s Theme and ColorMode containers so the pages can have app-wide dark/light mode. We are also creating some components which shows the usage of `chakra-ui`'s style props.
+### To install this project:
 
-## Deploy your own
+**Step # 1:**
+Clone the repo and than change directory to new repository directory:
+```
+git clone repo-url-of-this-project lireddit-web
+cd lireddit-web
+git reset --hard desired-release-commit-hash
+```
+- place this repo git ssh url here in place of `repo-url-of-this-project`
+- place desired release commit hash in place of `desired-release-commit-hash`
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-chakra-ui)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-chakra-ui with-chakra-ui-app
-# or
-yarn create next-app --example with-chakra-ui with-chakra-ui-app
+**Step # 2:**
+Install dependencies:
+```
+yarn install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+**Step # 3:**
+Than you can run the following command to start project:
+
+```
+yarn dev
+```
+
+**Step # 4:**
+To Continue tutorial follow this link @ [2:14:08](https://youtu.be/I6ypD7qv3Z8?t=8048)
